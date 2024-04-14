@@ -54,10 +54,6 @@
     <disabled-until-used-preinstalled-carrier-app package="com.google.android.apps.tycho" />
 
     <!-- Whitelist so the app can run JobIntentService in background. b/77932342 -->
-    <allow-in-power-save-except-idle package="com.google.android.tetheringentitlement" />
-    <!-- Tethering entitlement check app should have Internet access while in data saving mode,
-         even if they're in background. -->
-    <allow-in-data-usage-save package="com.google.android.tetheringentitlement" />
 
     <!-- Allow eMBMS middleware services to run in the background -->
     <allow-in-power-save package="com.qualcomm.ltebc_vzw" />

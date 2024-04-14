@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/lynx/proprietary/product/etc/permissions/com.android.sdm.plugins.diagmon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.diagmon.xml \
     vendor/google/lynx/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/lynx/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
-    vendor/google/lynx/proprietary/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml \
-    vendor/google/lynx/proprietary/product/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.services.xml \
-    vendor/google/lynx/proprietary/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml \
     vendor/google/lynx/proprietary/product/etc/permissions/privapp-permissions-google-p-lineage.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p-lineage.xml \
     vendor/google/lynx/proprietary/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml \
     vendor/google/lynx/proprietary/product/etc/sysconfig/allowlist_com.shannon.imsservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.shannon.imsservice.xml \
@@ -44,19 +41,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/lynx/proprietary/product/lib64/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdmengine.so \
     vendor/google/lynx/proprietary/product/lib64/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdmjavaplugin.so \
     vendor/google/lynx/proprietary/system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/vendor.google.edgetpu_app_service@1.0-service \
-    vendor/google/lynx/proprietary/system_ext/etc/default-permissions/default-permissions-euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-euiccpixel.xml \
     vendor/google/lynx/proprietary/system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc \
-    vendor/google/lynx/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.android.qns.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.qns.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.google.android.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camera.extensions.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.google.android.camerax.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camerax.extensions.xml \
-    vendor/google/lynx/proprietary/system_ext/etc/permissions/com.google.euiccpixel.permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.euiccpixel.permissions.xml \
-    vendor/google/lynx/proprietary/system_ext/etc/permissions/com.google.euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.euiccpixel.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.samsung.slsi.telephony.oemril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.samsung.slsi.telephony.oemril.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.shannon.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.imsservice.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/com.shannon.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.rcsservice.xml \
-    vendor/google/lynx/proprietary/system_ext/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.verizon.llkagent.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/oemrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oemrilhook.xml \
     vendor/google/lynx/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
@@ -72,20 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/lynx/proprietary/system_ext/lib64/libhbmsvmanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhbmsvmanager_jni.so \
     vendor/google/lynx/proprietary/system_ext/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediaadaptor.so \
     vendor/google/lynx/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
-    vendor/google/lynx/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.in:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_DVT.in \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_DVT.up \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_P22_DVT.in:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_P22_DVT.in \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_P22_DVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_P22_DVT.up \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_P22_EVT.in:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_P22_EVT.in \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_P22_EVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_P22_EVT.up \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-ofl-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-ofl-v1.img \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v0.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v0.img \
-    vendor/google/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img
-
-PRODUCT_PACKAGES += \
-    VZWAPNLib \
+    vendor/google/lynx/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \PRODUCT_PACKAGES += \
     AppDirectedSMSService \
     CarrierSettings \
     CarrierWifi \
@@ -95,23 +74,14 @@ PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2022 \
     DiagMon \
-    EuiccGoogle \
     HardwareInfo \
-    HotwordEnrollmentOKGoogleFUSIONPro \
-    HotwordEnrollmentXGoogleFUSIONPro \
     OemDmTrigger \
     PixelCameraServicesL10 \
-    TetheringEntitlement \
     WfcActivation \
     OemRilHookService \
     CarrierSetup \
     ConnectivityThermalPowerManager \
-    EuiccGoogleOverlay \
-    EuiccSupportPixel \
-    EuiccSupportPixelPermissions \
     HbmSVManager \
-    LLKAgent \
-    MyVerizonServices \
     OemRilService \
     PixelQualifiedNetworksService \
     RilConfigService \
@@ -120,7 +90,6 @@ PRODUCT_PACKAGES += \
     grilservice \
     libhwinfo \
     RadioConfigLib \
-    com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
     google-ril \
@@ -375,7 +344,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/tmomvno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmomvno_us.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/tracfoneatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneatt_us.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/tracfonetmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfonetmo_us.pb \
-    vendor/google/lynx/proprietary/product/etc/CarrierSettings/tracfoneverizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneverizon_us.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/truemove_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/truemove_th.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/tstar_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tstar_tw.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/twm_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/twm_tw.pb \
@@ -390,7 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/uqmobile5gsa_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile5gsa_jp.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/uqmobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile_jp.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/uscc_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uscc_us.pb \
-    vendor/google/lynx/proprietary/product/etc/CarrierSettings/verizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verizon_us.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/verymobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verymobile_it.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/viaero_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/viaero_us.pb \
     vendor/google/lynx/proprietary/product/etc/CarrierSettings/videotron_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/videotron_ca.pb \
@@ -1980,7 +1947,6 @@ PRODUCT_PACKAGES += \
     com.google.android.hardware.biometrics.face.lynx \
     com.google.android.widevine-wv_341113000 \
     com.google.pixel.camera.hal \
-    com.google.pixel.euicc.update \
     com.google.pixel.wifi.ext \
     com.google.android.camera.experimental2022 \
     android.hardware.authsecret-service.citadel \
